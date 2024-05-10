@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jumia Clone</title>
+
+  <link rel="shortcut icon" href="https://www.jumia.com.ng/assets_he/favicon.87f00114.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/global.css">
+  <link rel="stylesheet" href="./assets/header.css">
+  <link rel="stylesheet" href="./assets/main.css">
+
+  <script type="module" src="./script.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="menu_logo">
+        <div class="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="hamburger">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+              <path d="M7.94971 11.9497H39.9497" />
+              <path d="M7.94971 23.9497H39.9497" />
+              <path d="M7.94971 35.9497H39.9497" />
+            </g>
+          </svg>
+
+          <div class="menu-dropdown">
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path
+                    d="m12.147 21.265l-.147-.03l-.147.03c-2.377.475-4.62.21-6.26-1.1C3.964 18.86 2.75 16.373 2.75 12c0-4.473 1.008-6.29 2.335-6.954c.695-.347 1.593-.448 2.735-.317c1.141.132 2.458.488 3.943.983l.26.086l.255-.102c2.482-.992 4.713-1.373 6.28-.641c1.47.685 2.692 2.538 2.692 6.945c0 4.374-1.213 6.86-2.843 8.164c-1.64 1.312-3.883 1.576-6.26 1.1Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5.5C12 3 11 2 9 2" />
+                </g>
+              </svg>
+              <span class="text">Supermarket</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"
+                height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 442 442" xml:space="preserve">
+                <g>
+                  <path
+                    d="M341,128.36h-10v-12.5c5.523,0,10-4.478,10-10c0-5.522-4.477-10-10-10v-22.5c0-5.522-4.477-10-10-10h-50   c-5.523,0-10,4.477-10,10v22.5c-5.523,0-10,4.478-10,10c0,5.522,4.477,10,10,10v12.5h-10c-5.523,0-10,4.478-10,10v275   c0,21.139,29.628,28.64,55,28.64c25.372,0,55-7.501,55-28.64v-275C351,132.838,346.523,128.36,341,128.36z M281,83.36h30v12.5h-30   V83.36z M281,115.86h30v12.5h-30V115.86z M296,422c-22.544,0-34.177-6.204-35-8.64v-265h70l0.007,264.968   C330.177,415.796,318.544,422,296,422z" />
+                  <path
+                    d="M191,218.36h-35v-94.5h20c5.523,0,10-4.478,10-10c0-5.522-4.477-10-10-10h-20v-5.965h15c5.523,0,10-4.478,10-10   s-4.477-10-10-10h-15v-5.965h10c5.523,0,10-4.478,10-10c0-5.522-4.477-10-10-10h-10v-5.966h5c5.523,0,10-4.478,10-10   c0-5.522-4.477-10-10-10h-5V20c5.523,0,10-4.477,10-10s-4.477-10-10-10h-20c-5.523,0-10,4.477-10,10s4.477,10,10,10v5.965h-5   c-5.523,0-10,4.478-10,10c0,5.522,4.477,10,10,10h5v5.966h-10c-5.523,0-10,4.478-10,10c0,5.522,4.477,10,10,10h10v5.965h-15   c-5.523,0-10,4.478-10,10s4.477,10,10,10h15v5.965h-20c-5.523,0-10,4.478-10,10c0,5.522,4.477,10,10,10h20v94.5h-35   c-5.523,0-10,4.478-10,10v185c0,21.139,29.628,28.64,55,28.64c25.372,0,55-7.501,55-28.64v-185   C201,222.838,196.523,218.36,191,218.36z M146,422c-22.544,0-34.177-6.204-35-8.64v-175h70l0.007,174.968   C180.177,415.796,168.544,422,146,422z" />
+                </g>
+              </svg>
+              <span class="text">Health and Beauty</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M11.03 2.59a1.5 1.5 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z" />
+              </svg>
+              <span class="text">Home and Office</span>
+            </a>
+            <a href="#" class="item">
+              <svg fill="#000000" viewBox="0 -19.24 178.73 178.73" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path id="cooker"
+                    d="M677.079,167.019h-11.3v-7.191a6.211,6.211,0,0,0-6.269-6.132h-3.2l-46.229-24.708a15.758,15.758,0,0,0-15.257-11.852h-1.957a15.758,15.758,0,0,0-15.257,11.851L531.38,153.7h-3.2a6.21,6.21,0,0,0-6.269,6.132v7.191h-11.3a6.137,6.137,0,0,0-6.135,6.133v9.863a7.4,7.4,0,0,0,4.5,6.637l19.628,7.812v34.6a25.383,25.383,0,0,0,25.325,25.323h79.833a25.38,25.38,0,0,0,25.323-25.323v-34.6l19.621-7.809a7.392,7.392,0,0,0,4.5-6.639v-9.863A6.137,6.137,0,0,0,677.079,167.019Zm-82.254-41.883a7.729,7.729,0,0,1,5.647,2.437H587.221a7.724,7.724,0,0,1,5.647-2.435Zm-12.562,10.438h23.168L639.338,153.7H548.354ZM529.911,161.7H657.782v4.927H529.911ZM528.6,188.852l-16.124-6.418v-7.415H528.6ZM645.994,244.3a17.249,17.249,0,0,1-12.231,5.092H553.93A17.389,17.389,0,0,1,536.6,232.065V200.647h0V174.623H651.086l0,57.442A17.261,17.261,0,0,1,645.994,244.3Zm29.216-61.861-16.124,6.417V175.019H675.21Z"
+                    transform="translate(-504.48 -117.136)"></path>
+                </g>
+              </svg>
+              <span class="text">Appliances</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                <path fill="currentColor"
+                  d="M176 18H80a22 22 0 0 0-22 22v176a22 22 0 0 0 22 22h96a22 22 0 0 0 22-22V40a22 22 0 0 0-22-22M70 62h116v132H70Zm10-32h96a10 10 0 0 1 10 10v10H70V40a10 10 0 0 1 10-10m96 196H80a10 10 0 0 1-10-10v-10h116v10a10 10 0 0 1-10 10" />
+              </svg>
+              <span class="text">Phones and Tablets</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M4.25 3A2.25 2.25 0 0 0 2 5.25v10.5A2.25 2.25 0 0 0 4.25 18H9.5v1.25c0 .69-.56 1.25-1.25 1.25h-.5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-.5c-.69 0-1.25-.56-1.25-1.25V18h5.25A2.25 2.25 0 0 0 22 15.75V5.25A2.25 2.25 0 0 0 19.75 3zM13 18v1.25c0 .45.108.875.3 1.25h-2.6c.192-.375.3-.8.3-1.25V18zM3.5 5.25a.75.75 0 0 1 .75-.75h15.5a.75.75 0 0 1 .75.75V13h-17zm0 9.25h17v1.25a.75.75 0 0 1-.75.75H4.25a.75.75 0 0 1-.75-.75z" />
+              </svg>
+              <span class="text">Computing</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm13-6l-4 4l-4-4m7 4v13m3-5v.01M18 12v.01" />
+              </svg>
+              <span class="text">Electronics</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M314.56 48s-22.78 8-58.56 8s-58.56-8-58.56-8a31.94 31.94 0 0 0-10.57 1.8L32 104l16.63 88l48.88 5.52a24 24 0 0 1 21.29 24.58L112 464h288l-6.8-241.9a24 24 0 0 1 21.29-24.58l48.88-5.52L480 104L325.13 49.8a31.94 31.94 0 0 0-10.57-1.8" />
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M333.31 52.66a80 80 0 0 1-154.62 0" />
+              </svg>
+              <span class="text">Fashion</span>
+            </a>
+            <a href="#" class="item">
+              <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 334.8 334.8" xml:space="preserve">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M42.799,202.022c14.235,39.256,47.25,69.024,87.064,80.747c7.053,13.563,21.218,22.871,37.536,22.871 c16.316,0,30.48-9.308,37.531-22.871c39.814-11.723,72.831-41.497,87.064-80.747c23.646-0.274,42.805-19.596,42.805-43.306 c0-23.712-19.153-43.031-42.805-43.303c-16.058-44.297-56.02-76.573-102.7-84.386c-0.775-0.292-1.604-0.509-2.547-0.562 c-0.586-0.031-1.208-0.026-1.804-0.053c-5.774-0.772-11.617-1.255-17.545-1.255c-55.767,0-106.078,35.161-124.601,86.255 C19.153,115.686,0,135.005,0,158.717C0,182.427,19.153,201.748,42.799,202.022z M141.296,226.829 c0-4.599,10.412-11.539,26.098-11.539c15.689,0,26.098,6.94,26.098,11.539c0,0.785-0.411,1.655-1.002,2.536 c-7.034-5.205-15.693-8.327-25.096-8.327c-9.402,0-18.069,3.122-25.099,8.327C141.713,228.484,141.296,227.62,141.296,226.829z M175.763,287.948c-2.637,0.896-5.421,1.497-8.363,1.497s-5.725-0.601-8.364-1.497c-8.464-2.891-14.979-9.931-17.017-18.742 c-0.436-1.888-0.723-3.839-0.723-5.864c0-4.73,1.36-9.112,3.575-12.94c3.547-6.149,9.456-10.722,16.546-12.403 c1.927-0.454,3.915-0.755,5.982-0.755s4.056,0.301,5.98,0.755c7.087,1.677,12.993,6.254,16.542,12.403 c2.21,3.828,3.576,8.21,3.576,12.94c0,2.025-0.28,3.966-0.723,5.864C190.74,278.018,184.222,285.058,175.763,287.948z M43.303,131.609c1.17,0,2.447,0.108,4.013,0.334l6.895,1.016l2.03-6.668c9.856-32.302,34.053-57.965,64.47-71.167 c-6.787,15.04,2.431,33.584,17.803,40.813c19.156,9.013,50.148,10.188,63.215-9.418c5.896-8.833,0.664-20.008-6.465-26.054 c-9.978-8.464-24.469-9.666-36.316-4.965c-9.59,3.808-5.416,19.48,4.308,15.623c7.043-2.79,13.455-3,20.216,0.709 c9.271,5.097,0.728,10.918-5.753,12.78c-12.082,3.472-29.906,0.638-39.351-7.839c-11.923-10.705,3.436-22.85,12.938-26.174 c10.304-3.607,21.629-4.406,32.529-4.014c44.07,6.271,81.775,37.249,94.727,79.706l2.03,6.668l6.897-1.016 c1.566-0.227,2.832-0.334,4.014-0.334c14.944,0,27.105,12.161,27.105,27.108c0,14.945-12.161,27.105-27.105,27.105 c-1.182,0-2.447-0.105-3.998-0.332l-6.908-1.028l-2.035,6.676c-10.325,33.855-36.418,60.381-68.893,72.953 c0.006-0.253,0.037-0.496,0.037-0.743c0-8.032-2.288-15.521-6.196-21.922c3.918-4.219,6.196-9.192,6.196-14.592 c0-15.562-18.578-27.743-42.298-27.743c-23.723,0-42.298,12.182-42.298,27.743c0,5.399,2.278,10.373,6.194,14.592 c-3.902,6.401-6.194,13.89-6.194,21.922c0,0.247,0.032,0.49,0.037,0.743c-32.479-12.572-58.566-39.098-68.892-72.953l-2.036-6.676 l-6.905,1.028c-1.566,0.227-2.837,0.332-4.013,0.332c-14.948,0-27.103-12.16-27.103-27.105 C16.2,143.77,28.355,131.609,43.303,131.609z">
+                    </path>
+                    <path d="M133.196,174.69c13.927,0,13.927-21.601,0-21.601S119.269,174.69,133.196,174.69z"></path>
+                    <path d="M201.598,173.34c13.927,0,13.927-21.6,0-21.6S187.671,173.34,201.598,173.34z"></path>
+                  </g>
+                </g>
+              </svg>
+              <span class="text">Baby Products</span>
+            </a>
+            <a href="#" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="currentColor" fill-rule="evenodd"
+                  d="M5.658 3.454c.506-.18 1.02-.204 1.445-.204h.612c1.033 0 2.04.32 2.883.917l.502.355a1.558 1.558 0 0 0 1.8 0l.502-.355a4.99 4.99 0 0 1 2.883-.917h.612c.426 0 .94.024 1.445.204c1.443.512 2.584 1.688 3.336 3.591c.744 1.884 1.126 4.52 1.066 8.07c-.013.75-.106 1.59-.395 2.346c-.291.767-.802 1.49-1.66 1.9a3.95 3.95 0 0 1-1.716.389a3.49 3.49 0 0 1-1.942-.56c-.472-.31-.885-.71-1.238-1.052a55.053 55.053 0 0 0-.127-.122c-.404-.39-.745-.693-1.123-.89A3.355 3.355 0 0 0 13 16.75h-2a3.36 3.36 0 0 0-1.544.377c-.378.196-.719.5-1.123.89l-.127.122c-.353.341-.766.742-1.238 1.052a3.49 3.49 0 0 1-1.942.559a3.95 3.95 0 0 1-1.716-.39c-.859-.41-1.369-1.132-1.66-1.899c-.289-.756-.382-1.596-.395-2.346c-.06-3.55.322-6.186 1.066-8.07c.752-1.903 1.893-3.08 3.336-3.591M7.103 4.75c-.384 0-.687.027-.943.117c-.94.334-1.809 1.125-2.443 2.73c-.641 1.623-1.02 4.036-.961 7.493c.011.662.095 1.308.296 1.837c.198.52.49.882.906 1.08a2.44 2.44 0 0 0 1.069.243c.485 0 .848-.136 1.12-.314c.345-.227.653-.523 1.022-.88l.124-.12c.401-.386.88-.834 1.473-1.14a4.855 4.855 0 0 1 2.235-.546H13c.778 0 1.544.187 2.235.545c.592.307 1.072.755 1.473 1.14l.124.12c.37.358.677.654 1.023.88c.271.179.634.315 1.12.315c.407 0 .762-.096 1.068-.242c.416-.2.708-.561.906-1.08c.201-.53.285-1.176.296-1.838c.058-3.457-.32-5.87-.961-7.494c-.634-1.604-1.503-2.395-2.443-2.729c-.256-.09-.56-.117-.943-.117h-.612c-.722 0-1.427.224-2.017.641l-.502.356a3.057 3.057 0 0 1-3.532 0l-.502-.356a3.491 3.491 0 0 0-2.017-.641zm.397 3.5a.75.75 0 0 1 .75.75v.75H9a.75.75 0 0 1 0 1.5h-.75V12a.75.75 0 0 1-1.5 0v-.75H6a.75.75 0 0 1 0-1.5h.75V9a.75.75 0 0 1 .75-.75"
+                  clip-rule="evenodd" />
+                <path fill="currentColor"
+                  d="M19 10.25a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0m-3 0a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0M16.75 8a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5m0 3a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5" />
+              </svg>
+              <span class="text">Gaming</span>
+            </a>
+            <a href="#" class="item">
+              <svg fill="#000000" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g id="Dumbbell">
+                    <path
+                      d="M21.435,11.5h-.38V8.12a1.626,1.626,0,0,0-1.62-1.62h-.63V6.12a1.625,1.625,0,0,0-3.25,0V11.5H8.445V6.12a1.625,1.625,0,0,0-3.25,0V6.5h-.63a1.62,1.62,0,0,0-1.62,1.62V11.5h-.38a.5.5,0,1,0,0,1h.38v3.37a1.622,1.622,0,0,0,1.62,1.63H5.2v.37a1.625,1.625,0,1,0,3.25,0V12.5h7.11v5.37a1.625,1.625,0,1,0,3.25,0V17.5h.63a1.628,1.628,0,0,0,1.62-1.63V12.5h.38a.5.5,0,1,0,0-1ZM5.2,16.5h-.63a.625.625,0,0,1-.62-.63V8.12a.623.623,0,0,1,.62-.62H5.2Zm2.25,1.37a.634.634,0,0,1-.63.63.625.625,0,0,1-.62-.63V6.12a.623.623,0,0,1,.62-.62.632.632,0,0,1,.63.62Zm10.36,0a.625.625,0,1,1-1.25,0V6.12a.625.625,0,0,1,1.25,0Zm2.25-2a.625.625,0,0,1-.62.63h-.63v-9h.63a.623.623,0,0,1,.62.62Z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+              <span class="text">Sporting Goods</span>
+            </a>
+            <a href="#" class="item">
+              <svg fill="#000000" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 27.9999 47.9219 C 16.9374 47.9219 8.1014 39.0625 8.1014 28 C 8.1014 16.9609 16.9140 8.0781 27.9765 8.0781 C 39.0155 8.0781 47.8983 16.9609 47.9219 28 C 47.9454 39.0625 39.0390 47.9219 27.9999 47.9219 Z M 20.2655 28.0234 C 20.2655 26.3125 18.8124 24.8594 17.1014 24.8594 C 15.3671 24.8594 13.9374 26.3125 13.9374 28.0234 C 13.9374 29.7344 15.3905 31.1875 17.1014 31.1875 C 18.8124 31.1875 20.2655 29.7344 20.2655 28.0234 Z M 31.1405 28.0234 C 31.1405 26.3125 29.6640 24.8594 27.9765 24.8594 C 26.2421 24.8594 24.8124 26.3125 24.8124 28.0234 C 24.8124 29.7344 26.2890 31.1875 27.9765 31.1875 C 29.6640 31.1875 31.1405 29.7344 31.1405 28.0234 Z M 42.0155 28.0234 C 42.0155 26.3125 40.5624 24.8594 38.8514 24.8594 C 37.1171 24.8594 35.6640 26.3125 35.6640 28.0234 C 35.6640 29.7344 37.1405 31.1875 38.8514 31.1875 C 40.5624 31.1875 42.0155 29.7344 42.0155 28.0234 Z">
+                  </path>
+                </g>
+              </svg>
+              <span class="text">Other categories</span>
+            </a>
+          </div>
+        </div>
+
+        <a href="#" class="logo-link">
+          <img src="./assets/images/JMIA_BIG.png" alt="Jumia Logo" class="logo">
+        </a>
+      </div>
+
+      <form class="search">
+        <div class="search-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 0 0 1.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 0 0-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 0 0 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0c.41-.41.41-1.08 0-1.49zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14" />
+          </svg>
+          <input type="search" name="searchbar" id="searchbar" placeholder='Search products, brands and categories'
+            autocomplete="off" required="">
+        </div>
+
+        <button type="submit" class="btn search-btn">SEARCH</button>
+      </form>
+
+      <div class="header-icons">
+        <a class="item account">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="account-icon">
+            <g fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linejoin="round" d="M4 18a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" />
+              <circle cx="12" cy="7" r="3" />
+            </g>
+          </svg>
+
+          <span class="text">Hi, Oluwafisayomi</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="caret-down">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m16 10l-4 4l-4-4" />
+          </svg>
+        </a>
+
+        <a class="item help">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M11.95 18q.525 0 .888-.363t.362-.887t-.362-.888t-.888-.362t-.887.363t-.363.887t.363.888t.887.362m-.9-3.85h1.85q0-.825.188-1.3t1.062-1.3q.65-.65 1.025-1.238T15.55 8.9q0-1.4-1.025-2.15T12.1 6q-1.425 0-2.312.75T8.55 8.55l1.65.65q.125-.45.563-.975T12.1 7.7q.8 0 1.2.438t.4.962q0 .5-.3.938t-.75.812q-1.1.975-1.35 1.475t-.25 1.825M12 22q-2.075 0-3.9-.787t-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8" />
+          </svg>
+          <span class="text">Help</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="caret-down">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="m16 10l-4 4l-4-4" />
+          </svg>
+        </a>
+        <a class="item cart">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z" />
+          </svg>
+          <span class="text">Cart</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <div class="container" id="product-article">
+        <div class="product-image">
+          <div class="image-display">
+            <img src="./assets/images/skyrun-fridge.jpg" alt="Product Image" id="product-image">
+          </div>
+
+          <hr>
+
+          <div class="share-product">
+            <h3>SHARE THIS PRODUCT</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="soc-icon">
+              <path fill="currentColor"
+                d="M15.7 12h-2.4v9H9.7v-9H8V8.8h1.7v-2c0-1.5.7-3.8 3.6-3.8H16v3.1h-2c-.3 0-.7.2-.7.9v1.8H16l-.3 3.2z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="soc-icon">
+              <path fill="currentColor"
+                d="M19.6 6.7a4.3 4.3 0 0 0 1.8-2.4 8 8 0 0 1-2.6 1 4 4 0 0 0-3-1.3c-2.2 0-4 2-4 4.3v1c-3.4-.2-6.4-2-8.4-4.5a4.4 4.4 0 0 0-.6 2.1c0 1.5.8 2.8 1.9 3.6a4 4 0 0 1-1.9-.5c0 2.1 1.4 3.8 3.3 4.2a3.9 3.9 0 0 1-1 .2 3.9 3.9 0 0 1-.9 0c.6 1.6 2 2.9 3.9 2.9A8 8 0 0 1 2 19.1 11.3 11.3 0 0 0 8.3 21C15.8 21 20 14.5 20 8.8v-.6A8.5 8.5 0 0 0 22 6a8 8 0 0 1-2.4.7z" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="product-details">
+          <span class="details-top">
+            <span id="official-store-label" class="product-label">Official Store</span>
+            <span id="pay-on-delivery-label" class="product-label">Pay on Delivery</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="like-icon">
+              <path fill="currentColor"
+                d="M16.5 3c-1.74 0-3.41.8-4.5 2.05A6.04 6.04 0 0 0 7.5 3 5.4 5.4 0 0 0 2 8.4c0 3.7 3.4 6.72 8.55 11.31L12 21l1.45-1.3C18.6 15.13 22 12.1 22 8.4A5.4 5.4 0 0 0 16.5 3zm-4.4 15.25-.1.1-.1-.1C7.14 14.03 4 11.23 4 8.4c0-1.97 1.5-3.44 3.5-3.44a3.9 3.9 0 0 1 3.57 2.32h1.87a3.89 3.89 0 0 1 3.56-2.32c2 0 3.5 1.47 3.5 3.44 0 2.83-3.14 5.63-7.9 9.85z" />
+            </svg>
+          </span>
+
+          <h1 id="product-title" class="product-title">
+            Skyrun 46 Litres Single Door Fridge (BCD-50MY) - Silver
+          </h1>
+
+          <p class="small brand">
+            Brand: <a href="#">Skyrun</a> | <a href="#">Similar products from skyrun</a>
+          </p>
+
+          <div id="flash-sale">
+            <div class="sale-heading">
+
+              <span>
+                <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                  <path fill="#FFBA00"
+                    d="m9.77 18.84 2.3-5.3-3.24-.92 5.9-4.76-1.95 4.13 3.3.94-6.3 5.9zm3.85-13.46a1.25 1.25 0 1 1 2.33.9 1.25 1.25 0 0 1-2.33-.9zm6.22 2.98-3.06-5.8c-.25-.46-.8-.68-1.3-.5L9.32 4.34c-.29.1-.52.33-.63.62L4.07 17.02c-.21.55.06 1.17.61 1.38l4.6 1.76 4.6 1.77c.56.21 1.17-.07 1.38-.61L19.9 9.24c.11-.29.1-.61-.05-.88z" />
+                </svg>
+                Flash Sales
+              </span>
+              <span id="time-left">Time Left: 17h : 43m : 26s</span>
+            </div>
+
+            <div class="sale-body">
+              <div class="sale-price">
+                <span class="current-price" id="product-current-price">&dollar; 105,990</span>
+                <span class="previous-price" id="product-previous-price">&dollar; 150,000</span>
+                <span id="discount-rate">-29%</span>
+              </div>
+
+              <div class="item-quantity">
+                <p>
+                  <span id="items-left">50</span> items left
+                </p>
+                <div class="items-left-bar outer">
+                  <div class="inner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="small">
+            + shipping from &dollar;2,730 to LEKKI-AJAH (SANGOTEDO)
+          </p>
+
+          <div class="rating">
+            <div class="star-rating outer">
+              <div class="star-rating inner" id="star-rating-inner"></div>
+            </div>
+
+            <a class="small">
+              (<span id="star-rating-count">11</span> verified ratings)
+            </a>
+          </div>
+
+          <button class="btn add-cart-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="add-cart">
+              <path fill="currentColor"
+                d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-9.8-3.3.9-1.7h7.5a2 2 0 0 0 1.7-1l3.9-7-1.8-1-1 2-2.8 5h-7l-.2-.3L6.2 6l-1-2-1-2H1v2h2l3.6 7.6L5.2 14A2 2 0 0 0 7 17h12v-2H7.4a.3.3 0 0 1-.2-.3z" />
+            </svg>
+            <span>
+              ADD TO CART
+            </span>
+          </button>
+
+          <hr>
+        </div>
+
+        <div class="promotions">
+          <h3>PROMOTIONS</h3>
+          <span class="small">
+            <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24" id="jumia-star">
+              <path fill="#F90"
+                d="M12.14 2.33a9.6 9.6 0 1 1 .02 19.22 9.6 9.6 0 0 1-.02-19.22zm0 1.44-2.42 4.9-5.42.79 3.92 3.82-.93 5.4 4.85-2.55L17 18.67l-.92-5.4L20 9.46l-5.42-.79-2.43-4.9z" />
+            </svg>
+            <a href="">Call 07006000000 To Order</a>
+          </span>
+          <span class="small">
+            <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24" id="jumia-star">
+              <path fill="#F90"
+                d="M12.14 2.33a9.6 9.6 0 1 1 .02 19.22 9.6 9.6 0 0 1-.02-19.22zm0 1.44-2.42 4.9-5.42.79 3.92 3.82-.93 5.4 4.85-2.55L17 18.67l-.92-5.4L20 9.46l-5.42-.79-2.43-4.9z" />
+            </svg>
+            <a href="">Need extra money? Loan up to N500,000 on JumiaPay Android app.</a>
+          </span>
+          <span class="small">
+            <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 24 24" id="jumia-star">
+              <path fill="#F90"
+                d="M12.14 2.33a9.6 9.6 0 1 1 .02 19.22 9.6 9.6 0 0 1-.02-19.22zm0 1.44-2.42 4.9-5.42.79 3.92 3.82-.93 5.4 4.85-2.55L17 18.67l-.92-5.4L20 9.46l-5.42-.79-2.43-4.9z" />
+            </svg>
+            <a href="">Enjoy sheaper shipping fees when you select a PickUp Station at checkout</a>
+          </span>
+        </div>
+
+        <div class="description">
+          <h3>DESCRIPTION</h3>
+          <p id="product-description">
+            Brand story: SKYRUN was established in 2005. It is a local manufacturing company in Nigeria. There are 6
+            high-efficiency production plants in the country. Products include TVs, Washing Machines, Refrigerators, Air
+            Conditioners, Smart Electric Meters, Small Appliances, etc. And the Smart Electric Meters received a
+            manufacturing certificate issued by nerc in 2016. SKYRUN is a leading supplier of technology and services in
+            Nigeria. SKYRUN has a nationwide sales network and after-sales service system, and always puts user
+            experience first. SKYRUN's brand philosophy is "Make a better life".
+          </p>
+          <a href="">Report incorrect product information</a>
+        </div>
+      </div>
+    </article>
+
+    <aside id="aside">
+      <h2>PRODUCTS</h2>
+      <div class="products-container" id="products-container">
+      </div>
+    </aside>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>

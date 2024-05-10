@@ -1,0 +1,168 @@
+header {
+  /* width: 100vw; */
+  background-color: #fff;
+  padding: 10px 15px;
+  position: sticky;
+  top: 0px;
+}
+
+.header-container {
+  margin: auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu_logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  /* background-color: cadetblue; */
+}
+
+.hamburger {
+  font-size: 18px;
+}
+
+.hamburger:hover,
+.item:hover {
+  color: #F68B1E;
+}
+
+.menu {
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.menu:hover:after {
+  content: "";
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: -1;
+}
+
+.menu-dropdown {
+  background-color: #fff;
+  width: 200px;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 170%;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #00000080;
+}
+
+.menu:hover > .menu-dropdown {
+  display: flex;
+}
+
+.menu-dropdown::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  transform: rotate(-45deg);
+  box-shadow: 2px -2px 5px -2px #00000080;
+}
+
+.menu-dropdown .item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+}
+
+form.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-box {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #707070;
+  border-radius: 2px;
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.search-box input {
+  width: 350px;
+  border: none;
+  outline: none;
+}
+
+.search-box input::placeholder {
+  font-size: 13px;
+}
+
+.search-btn {
+  box-shadow: 1px 2px 5px #00000040;
+}
+
+.header-icons a,
+.header-icons {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.header-icons {
+  gap: 20px;
+}
+
+.header-icons a {
+  gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    justify-content: unset;
+  }
+
+  .menu_logo {
+    margin-right: auto;
+  }
+
+  .search-box {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+  }
+
+  .header-icons .item.help,
+  .header-icons .item #caret-down,
+  .search .search-btn,
+  .search-box #searchbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header-icons .item span {
+    display: none;
+  }
+}
