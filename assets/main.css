@@ -201,14 +201,14 @@ article .container {
 }
 
 .star-rating.outer {
-  background-image: url("/assets/images/star-outer.svg");
+  background-image: url("./images/star-outer.svg");
   background-repeat: repeat-x;
   width: 90px;
   height: 18px;
 }
 
 .star-rating.inner {
-  background-image: url("/assets/images/star-inner.svg");
+  background-image: url("./images/star-inner.svg");
   height: 100%;
   width: 50%;
 }
